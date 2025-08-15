@@ -27,14 +27,16 @@
       }
 
       .pricing-plan {
-        display: inline-flex;
+        display: flex;
         flex-flow: column;
-        flex-basis: 250px;
+        justify-content: center;
+        flex: 1;
+        max-width: 400px;
         background-color: #d8e3ec;
         border-radius: 10%;
         padding: 25px;
         align-items: center;
-        height: 200px;
+        height: 250px;
         /* temp */
         border: 5px solid #89a4c7;
       }
@@ -78,7 +80,7 @@
       @media (max-width: 700px) {
         .pricing-container {
           flex-direction: column;
-          height: 100vh;
+          height: 100%;
         }
 
         .pricing-plan {
