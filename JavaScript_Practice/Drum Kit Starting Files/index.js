@@ -4,11 +4,13 @@ for (var i = 0; i < arrButton.length; i++) {
   arrButton[i].addEventListener("click", function () {
     var buttonInnerHTML = this.innerHTML;
     playInstrument(buttonInnerHTML);
+    buttonAnimaion(buttonInnerHTML);
   });
 }
 
 document.addEventListener("keydown", function (event) {
   playInstrument(event.key);
+  buttonAnimaion(event.key);
 });
 
 function playInstrument(keyPressed) {
@@ -44,4 +46,12 @@ function playInstrument(keyPressed) {
     default:
       console.log(event);
   }
+}
+
+function buttonAnimaion(keyPressed) {
+  var activeButton = document.querySelector("button." + keyPressed);
+  activeButton.classList.add("pressed");
+  setTimeout(function () {
+    activeButton.classList.remove("pressed");
+  }, 100);
 }
