@@ -31,7 +31,7 @@ app.get("/filter", (req, res) => {
   res.json(foundJokes);
 });
 
-//4. POST a new joke\bmbmb
+//4. POST a new joke sql practice
 app.post("/jokes", (req, res) => {
   const reqType = req.body.type;
   const reqText = req.body.text;
