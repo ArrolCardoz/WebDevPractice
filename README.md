@@ -1,6 +1,6 @@
 # Web Development Practice
 
-This repository contains my practice code and notes while working through the **"Become a Full-Stack Web Developer with just ONE course"** by [The App Brewery](https://www.appbrewery.co/).
+This repository contains my practice code and notes while working through the **"Become a Full-Stack Web Developer with just ONE course"** by [The App Brewery](https://www.udemy.com/course/the-complete-web-development-bootcamp/).
 
 The course covers a wide range of web development topics, from the fundamentals of HTML & CSS to advanced concepts like Web3 and DApps.
 
