@@ -2,11 +2,11 @@
   color: red;
 }
 
-ul {
+li {
   color: blue;
 }
 
-.food-img {
+.fav-food-img {
   height: 100px;
   width: 100px;
 }
